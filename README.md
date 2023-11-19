@@ -5,6 +5,8 @@ This is a simple addon for [Waypoint Placeables](https://github.com/WaypointRP/w
 
 > This script is based on [qb-printer](https://github.com/qbcore-framework/qb-printer) and was modified to remove the QB framework dependency and work as an addon for [Waypoint Placeables](https://github.com/WaypointRP/wp-printer).
 
+[Preview](https://www.youtube.com/watch?v=Gqb9SSoaNAs)
+
 ## Usage
 
 - Place the printer
