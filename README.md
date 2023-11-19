@@ -1,7 +1,7 @@
 # Printers
 ![wp-printer](https://github.com/WaypointRP/wp-printer/assets/18689469/b61e0dd5-8d0f-49b4-bf64-661e64a1fe9d)
 
-This is a simple script that provides the ability to place printers, print documents and view them.
+This is a simple addon for [Waypoint Placeables](https://github.com/WaypointRP/wp-placeables) that provides provides players the ability to place printers, print documents and view them.
 
 > This script is based on [qb-printer](https://github.com/qbcore-framework/qb-printer) and was modified to remove the QB framework dependency and work as an addon for [Waypoint Placeables](https://github.com/WaypointRP/wp-printer).
 
