@@ -1,4 +1,4 @@
-RegisterNetEvent('wp-printer:printer:client:UseDocument', function(itemData)
+RegisterNetEvent('wp-printer:client:UseDocument', function(itemData)
     local documentUrl = itemData.info.url ~= nil and itemData.info.url or false
     SendNUIMessage({
         action = "open",
@@ -7,7 +7,7 @@ RegisterNetEvent('wp-printer:printer:client:UseDocument', function(itemData)
     SetNuiFocus(true, false)
 end)
 
-RegisterNetEvent('wp-printer:printer:client:UsePrinter', function()
+RegisterNetEvent('wp-printer:client:UsePrinter', function()
     SendNUIMessage({
         action = "start"
     })
@@ -16,7 +16,7 @@ end)
 
 RegisterNUICallback('SaveDocument', function(data)
     if data.url ~= nil then
-        TriggerServerEvent('wp-printer:printer:server:SaveDocument', data.url)
+        TriggerServerEvent('wp-printer:server:SaveDocument', data.url)
     end
 end)
 

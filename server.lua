@@ -1,8 +1,8 @@
 CreateUseableItem("printerdocument", function(source, item)
-    TriggerClientEvent('wp-printer:printer:client:UseDocument', source, item)
+    TriggerClientEvent('wp-printer:client:UseDocument', source, item)
 end)
 
-RegisterServerEvent('wp-printer:printer:server:SaveDocument', function(url)
+RegisterServerEvent('wp-printer:server:SaveDocument', function(url)
     local src = source
     local info = {}
     local extension = string.sub(url, -4)

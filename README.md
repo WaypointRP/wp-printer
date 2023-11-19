@@ -33,7 +33,7 @@ This script is based on [qb-printer](https://github.com/qbcore-framework/qb-prin
     ```lua
     local printerCustomTargetOptions = {
         {
-            event = "wp-placeables:printer:client:UsePrinter",
+            event = "wp-printer:client:UsePrinter",
             icon = "fas fa-print",
             label = "Use printer",
         },
