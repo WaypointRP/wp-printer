@@ -59,3 +59,5 @@ This is a simple addon for [Waypoint Placeables](https://github.com/WaypointRP/w
 
 Originally authored by: [QBCore Framework - qb-printer](https://github.com/qbcore-framework/qb-printer)
 Modified by: BackSH00TER - Waypoint Scripts
+
+@DonHulieo for providing insipiration and examples for structuring the framework.lua file.
