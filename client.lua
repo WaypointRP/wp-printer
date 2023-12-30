@@ -1,5 +1,7 @@
 RegisterNetEvent('wp-printer:client:UseDocument', function(itemData)
-    local documentUrl = itemData.info.url ~= nil and itemData.info.url or false
+    local itemMetadata = GetItemMetadata(itemData)
+    local documentUrl = itemMetadata.url ~= nil and itemMetadata.url or false
+
     SendNUIMessage({
         action = "open",
         url = documentUrl
