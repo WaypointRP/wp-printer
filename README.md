@@ -26,12 +26,12 @@ This is a simple addon for [Waypoint Placeables](https://github.com/WaypointRP/w
 
 3. Add this to your items.lua:
     ```lua
-    ["printerdocument"] = {["name"] = "printerdocument", ["label"] = "Document", ["weight"] = 500, ["type"] = "item", ["image"] = "printerdocument.png", ["unique"] = true,     ["useable"] = true, ["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "A nice document"},
-    ["printer"] = {["name"] = "printer", ["label"] = "Printer", ["weight"] = 5000, ["type"] = "item", ["image"] = "printer1.png", ["unique"] = true,     ["useable"] = true, ["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Print a nice document"},
-    ["printer2"] = {["name"] = "printer2", ["label"] = "Printer", ["weight"] = 5000, ["type"] = "item", ["image"] = "printer2.png", ["unique"] = true,     ["useable"] = true, ["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Print a nice document"},
-    ["printer3"] = {["name"] = "printer3", ["label"] = "Printer", ["weight"] = 5000, ["type"] = "item", ["image"] = "printer3.png", ["unique"] = true,     ["useable"] = true, ["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Print a nice document"},
-    ["printer4"] = {["name"] = "printer4", ["label"] = "Printer", ["weight"] = 5000, ["type"] = "item", ["image"] = "printer4.png", ["unique"] = true,     ["useable"] = true, ["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Print a nice document"},
-    ["photocopier"] = {["name"] = "printer5", ["label"] = "Photocopier", ["weight"] = 5000, ["type"] = "item", ["image"] = "photocopier.png", ["unique"] = true,     ["useable"] = true, ["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Make a lot of copies"},
+    printerdocument = {name = "printerdocument", label = "Document", weight = 500, type = "item", image = "printerdocument.png", unique = true, useable = true, shouldClose = true,   combinable = nil,   description = "A nice document"},
+    printer = {name = "printer", label = "Printer", weight = 5000, type = "item", image = "printer1.png", unique = true, useable = true, shouldClose = true,   combinable = nil,   description = "Print a nice document"},
+    printer2 = {name = "printer2", label = "Printer", weight = 5000, type = "item", image = "printer2.png", unique = true, useable = true, shouldClose = true,   combinable = nil,   description = "Print a nice document"},
+    printer3 = {name = "printer3", label = "Printer", weight = 5000, type = "item", image = "printer3.png", unique = true, useable = true, shouldClose = true,   combinable = nil,   description = "Print a nice document"},
+    printer4 = {name = "printer4", label = "Printer", weight = 5000, type = "item", image = "printer4.png", unique = true, useable = true, shouldClose = true,   combinable = nil,   description = "Print a nice document"},
+    photocopier = {name = "printer5", label = "Photocopier", weight = 5000, type = "item", image = "photocopier.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Make a lot of copies"},
     ```
 4. In `wp-placeables/shared/config.lua`, search for `-- Uncomment this line if you are using wp-printer` and uncomment the following lines:
     ```lua
