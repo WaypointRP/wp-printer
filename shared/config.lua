@@ -6,8 +6,8 @@ Config = {}
 -- Note: If using ox for any option, enable @ox_lib/init.lua in the manifest!
 
 Config.Framework = 'qb'     -- 'qb', 'esx'
-Config.Notify = 'ox'        -- 'qb', 'esx', 'ox' 
-Config.Inventory = 'ox'     -- 'qb', 'esx', 'ox'
+Config.Notify = 'qb'        -- 'qb', 'esx', 'ox' 
+Config.Inventory = 'qb'     -- 'qb', 'esx', 'ox'
 
 Config.ValidExtensions = {
     [".png"] = true,
