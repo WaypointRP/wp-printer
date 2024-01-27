@@ -49,6 +49,7 @@ This is a simple addon for [Waypoint Placeables](https://github.com/WaypointRP/w
     {item = "printer4", label = "Printer", model = "v_ret_gc_print", isFrozen = true, customTargetOptions = printerCustomTargetOptions},
     {item = "photocopier", label = "Photocopier", model = "v_med_cor_photocopy", isFrozen = true, customTargetOptions = printerCustomTargetOptions},
     ```
+> Note: If you are using `ox` for any of the Framework options you need to uncomment `@ox_lib/init.lua` in the fxmanifest.lua.
 
 ## Dependencies
 - [Waypoint Placeables](https://github.com/WaypointRP/wp-placeables)
