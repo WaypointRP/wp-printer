@@ -8,12 +8,3 @@ Config = {}
 Config.Framework = 'qb'     -- 'qb', 'esx'
 Config.Notify = 'qb'        -- 'qb', 'esx', 'ox' 
 Config.Inventory = 'qb'     -- 'qb', 'esx', 'ox'
-
-Config.ValidExtensions = {
-    [".png"] = true,
-    [".gif"] = true,
-    [".jpg"] = true,
-    ["jpeg"] = true
-}
-
-Config.ValidExtensionsText = '.png, .gif, .jpg, .jpeg'
