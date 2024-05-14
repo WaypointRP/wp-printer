@@ -31,7 +31,7 @@ This is a simple addon for [Waypoint Placeables](https://github.com/WaypointRP/w
     printer2 = {name = "printer2", label = "Printer", weight = 5000, type = "item", image = "printer2.png", unique = true, useable = true, shouldClose = true,   combinable = nil,   description = "Print a nice document"},
     printer3 = {name = "printer3", label = "Printer", weight = 5000, type = "item", image = "printer3.png", unique = true, useable = true, shouldClose = true,   combinable = nil,   description = "Print a nice document"},
     printer4 = {name = "printer4", label = "Printer", weight = 5000, type = "item", image = "printer4.png", unique = true, useable = true, shouldClose = true,   combinable = nil,   description = "Print a nice document"},
-    photocopier = {name = "printer5", label = "Photocopier", weight = 5000, type = "item", image = "photocopier.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Make a lot of copies"},
+    photocopier = {name = "photocopier", label = "Photocopier", weight = 5000, type = "item", image = "photocopier.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "Make a lot of copies"},
     ```
 4. In `wp-placeables/shared/config.lua`, search for `-- Uncomment this line if you are using wp-printer` and uncomment the following lines:
     ```lua
@@ -49,6 +49,7 @@ This is a simple addon for [Waypoint Placeables](https://github.com/WaypointRP/w
     {item = "printer4", label = "Printer", model = "v_ret_gc_print", isFrozen = true, customTargetOptions = printerCustomTargetOptions},
     {item = "photocopier", label = "Photocopier", model = "v_med_cor_photocopy", isFrozen = true, customTargetOptions = printerCustomTargetOptions},
     ```
+> Note: If you are using `ox` for any of the Framework options you need to uncomment `@ox_lib/init.lua` in the fxmanifest.lua.
 
 ## Dependencies
 - [Waypoint Placeables](https://github.com/WaypointRP/wp-placeables)
