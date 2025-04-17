@@ -11,7 +11,7 @@ Config.Framework = "qb"
 
 -- The notification script you are using.
 --- @type "qb" | "esx" | "ox" | "none"
-Config.Notify = "qb"    -- 'qb', 'esx', 'ox'
+Config.Notify = "qb"
 
 -- The inventory script you are using.
 --- @type "qb" | "esx" | "ox"
