@@ -54,7 +54,10 @@ This is a simple addon for [Waypoint Placeables](https://github.com/WaypointRP/w
         weight = 5000,
         stack = true,
         close = true,
-        description = "Print a nice document"
+        description = "Print a nice document",
+        client = {
+            image = 'printer1.png',
+        }
     },
     ["printer2"] = {
         label = "Printer",
