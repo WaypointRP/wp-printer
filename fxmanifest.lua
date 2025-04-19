@@ -25,4 +25,8 @@ files {
     "html/*",
 }
 
+dependencies {
+    "wp-placeables",
+}
+
 lua54 "yes"
