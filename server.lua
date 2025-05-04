@@ -10,3 +10,12 @@ RegisterServerEvent("wp-printer:server:SaveDocument", function(url)
         AddItem(src, "printerdocument", 1, info)
     end
 end)
+
+AddEventHandler("onResourceStart", function(resourceName)
+    if resourceName == GetCurrentResourceName() then
+        -- Give the script some time to start
+        Wait(100)
+
+        ValidateOxLibUsage()
+    end
+end)
