@@ -107,6 +107,9 @@ This is a simple addon for [Waypoint Placeables](https://github.com/WaypointRP/w
     ```
 > Note: If you are using `ox` for any of the Framework options you need to uncomment `@ox_lib/init.lua` in the fxmanifest.lua.
 
+## Limitations
+⚠️ Imgur links do not work. Imgur has restricted support for external links in FiveM. This limitation is enforced by Imgur itself, so you'll need to use an alternative image hosting service.
+
 ## Dependencies
 - [Waypoint Placeables](https://github.com/WaypointRP/wp-placeables)
 - QBCore / Qbox / ESX / Or other frameworks (must implement framework specific solutions in framework.lua)
